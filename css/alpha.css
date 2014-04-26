@@ -4,6 +4,10 @@ body{
     color: rgb(67,67,67);  
     font-family: Rockwell;
 }
+
+h1{
+    font-family: serif;
+}
 .nameplate {    
     color: rgb(67,67,67);
     font-family: Rockwell;
@@ -184,10 +188,116 @@ body{
 #landing {
     width: 100%;
     height: 100%;
-    background: rgb(67, 67, 67);
+    background: #08121c;
 }
 
 .logo {
-    margin-top: 20%;
-    height: 35%;
+    margin-top: 50%;
+    height: 45%;    
+}
+
+#imaginary-nav {
+    color: white;
+    font-family: serif;
+    padding-top: top: 15%;    
+    
+}
+
+#backround {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    
+    image-resolution: snap;
+    -webkit-filter: blur(5.8px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+}
+
+
+
+
+
+#logo {
+    background-image: url(/assets/img/dofe-logo.png);
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    
+}
+
+#trophy-sub {
+    margin-top: 5%;
+    height: 30%;
+}
+
+#trophy {
+    position: absolute;
+    right: 0px;
+    top: 3%;
+    width: 50%;
+    visibility: visible;
+}
+
+.visibility{
+    visibility: visible;
+    border
+}
+
+@media (min-width: 1150px)
+{
+    #hide-sub{
+        visibility: collapse;
+        display: none;
+    }
+    
+    #trophy-sub{
+        visibility: hidden;
+    }
+    
+    .visibility{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 1150px)
+{
+    
+    #hide{
+        
+        visibility: hidden;
+        height: 0%;
+        width: 0%;
+    }
+    
+    #trophy{
+        visibility: collapse;
+        display: none;
+    }
+    
+    .trophy{
+        position: absolute;
+        right: 0px;
+        top: 5%;
+        height: 120%;    
+        visibility: visible;
+    }
+    
+    .logo{
+        visibility: collapse;
+        display: none;
+
+}
+    
+#award {    
+    background: rgb(27,27,27);
+    color: white;
+    height: 100%;
+    width: 100%;        
+}
+
+#trophy-full {
+    margin-top: 20px;    
 }
