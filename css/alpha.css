@@ -276,7 +276,7 @@ h1{
         visibility: collapse;
         display: none;
     }
-    
+        
     .trophy{
         position: absolute;
         right: 0px;
@@ -288,7 +288,6 @@ h1{
     .logo{
         visibility: collapse;
         display: none;
-
 }
     
 #award {    
@@ -301,3 +300,19 @@ h1{
 #trophy-full {
     margin-top: 20px;    
 }
+
+#navbar-main {
+    color: white;
+}
+
+.navbar-main {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: #08121c;
+    color: white;
+}
+
+
