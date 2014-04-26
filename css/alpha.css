@@ -237,7 +237,7 @@ h1{
     position: absolute;
     right: 0px;
     top: 3%;
-    width: 50%;
+    width: 51%;
     visibility: visible;
 }
 
@@ -288,10 +288,12 @@ h1{
     .logo{
         visibility: collapse;
         display: none;
+    }
+        
 }
     
 #award {    
-    background: rgb(27,27,27);
+    background: rgb(238, 195, 0);
     color: white;
     height: 100%;
     width: 100%;        
@@ -316,3 +318,7 @@ h1{
 }
 
 
+
+.white {
+    color: white;
+}
