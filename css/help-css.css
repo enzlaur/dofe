@@ -14,7 +14,21 @@
  height: 8em;	 
  background-color:teal;
  margin-top: 5%;
+ padding-top: 0%;
+ padding-left: 15%;
 }
+
+.sponsors{
+	height:5em;
+	padding-top: 2%;
+}
+
+.white{
+	color:white;
+	text-align:center;
+	font-size:15px;
+}
+
 p{
 	color:white;
 	text-align:left;
@@ -22,6 +36,7 @@ p{
 
 .description, p{
 	font-size: 16px;
+	text-align: justify;
 }
 
 .button-submit{
