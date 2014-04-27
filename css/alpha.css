@@ -187,13 +187,13 @@ h1{
 
 #landing {
     width: 100%;
-    height: 100%;
+    height: 105%;
     background: #08121c;
 }
 
 .logo {
-    margin-top: 50%;
-    height: 45%;    
+    margin-top: 20%;
+    height: 50%;        
 }
 
 #imaginary-nav {
@@ -230,7 +230,7 @@ h1{
 
 #trophy-sub {
     margin-top: 5%;
-    height: 30%;
+    height: 30%;    
 }
 
 #trophy {
@@ -293,10 +293,11 @@ h1{
 }
     
 #award {    
-    background: rgb(238, 195, 0);
+    background: #004a4a;        
     color: white;
-    height: 100%;
-    width: 100%;        
+    height: 120%;
+    width: 100%;    
+    
 }
 
 #trophy-full {
@@ -305,6 +306,9 @@ h1{
 
 #navbar-main {
     color: white;
+    background: #08121c;
+    height: 40px;
+    line-height: 40px;
 }
 
 .navbar-main {
@@ -321,4 +325,40 @@ h1{
 
 .white {
     color: white;
+}
+
+#trophy-motto {    
+    color: white;
+    font-family: serif; 
+    font-size: 16px;
+    font-style: italic;
+    line-height: 27px;
+    padding-top: 40px;
+}
+
+.back-teal {
+    background: #004a4a;
+}
+
+.low-20 {
+    padding-bottom: 20px;
+}
+
+.medal {
+    height: 40%;
+}
+
+.section-title {
+    font-size: 72px;     
+    color: white;
+    line-height: 65px;
+}
+
+#donate {
+    height: 100%;
+    background: #ff2626;
+}
+
+.back-red {
+    background: #ff2626
 }
