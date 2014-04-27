@@ -180,6 +180,7 @@ h1{
         visibility: visible;
     }
     #helpyou{
+        height: auto;
         display: none;
     }
     #visible-nav
