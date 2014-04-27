@@ -1,0 +1,42 @@
+p{
+	color:white;
+	text-align:left;
+}
+
+.description, p{
+	font-size: 16px;
+}
+
+
+.form-label{
+	color:white;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;	
+}
+
+input{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;	
+	border: 1px dashed orange;
+}
+
+.title{
+	margin:-15px;
+	color:white;
+	font-size:40px;
+	float:left;
+}
+
+body{
+	background-color:#08121c;
+}
+
+.help-logo{
+	height:20%;
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+.btn-submit{
+	border-radius:5px;
+}
