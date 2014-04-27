@@ -23,10 +23,51 @@
     </head>
     
     <body>
-			        
+		<div class="fixed" style="width:100%;">
+            <nav class="top-bar white" style="background: #08121c;" data-topbar>
+                <center>
+                    <ul class="title-area">
+                        <center>
+                            <li class="name" style="padding-left: 30px; padding-top: 10px;">                                
+                                <a href="index.html" style="color: white;">The Duke of Edinburgh's Award</a>
+                            </li>
+                        </center>
+                    </ul>
+                    
+                    <section class="top-bar-section">
+                    <!-- Right Nav Section -->
+                        <ul id="visible-nav" class="right">
+                            <li><a href="support.html" style="background:#08121c;">Support</a></li>
+                            <li><a href="help.html" style="background:#08121c;">Service</a></li>
+                            <li><a href="gallery.html" style="background:#08121c;">Our Gallery</a></li>                            
+                            <li><a href="about2.html" style="background:#08121c;">About Us</a></li>                            
+                        </ul>      
+                        
+                  </section>
+                </center>
+            </nav>
+            <div id="hidden-nav">
+                <nav class="top-bar"  data-topbar style="background: #08121c;">
+                <section class="top-bar-section" style="background: #08121c;">                     
+                    
+                    <ul class="left">
+                            <li class="has-dropdown" style="background: #08121c; font-family: serif;">
+                                <a href="index.html" style="color: white;">The Duke of Edinburgh's Award</a>
+                                <ul class="dropdown">
+                                    <li><a href="support.html" style="background:#08121c;">Support</a></li>
+                                    <li><a href="help.html" style="background:#08121c;">Service</a></li>
+                                    <li><a href="gallery.html" style="background:#08121c;">Our Gallery</a></li>                                    
+                                    <li><a href="about2.html" style="background:#08121c;">About Us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                </section>
+                </nav>
+            </div>
+        </div>	        
 			<div id="content">					
 					<div id="topbar">
-					<div class="row">
+					   <div class="row wow fadeInUp">
 							<div class="large-12 columns">
 								<center>
 									<img class="help-logo" src="assets/img/dofe-logo.png">
@@ -35,11 +76,17 @@
 						</div>
 					</div>    
 					
-					<div class="row">
+					<div class="row wow fadeInDown">
 						<div class="large-6 columns" style="padding-right:4em; padding-left:4em;">
-							<p class="title">SUPPORT US</p>
+							<p class="title" style="line-height: 40px">SUPPORT US</p>
 							<br/><br/>
-							<p class="description">The Adventurous Journey, which may be held as a cultural exchange with another country, or an eco-exploration within the Philippines require money that may not be available to all that deserve to be awarded. Continued financial support over the next few year will ensure that the underprivileged youth can be awarded for his efforts even if he wouldn’t otherwise be able to afford it.</p>
+							<p class="description">
+                                The Adventurous Journey, which may be held as a cultural 
+                                exchange with another country, or an eco-exploration within the Philippines require
+                                money that may not be available to all that deserve to be awarded. Continued financial 
+                                support over the next few year will ensure that the underprivileged youth can be 
+                                awarded for his efforts even if he wouldn’t otherwise be able to afford it.
+                            </p>
 						</div>
 						<div class="large-6 columns" style="padding-left:4em; padding-right:4em;">
 							<form>
@@ -47,7 +94,7 @@
 									<input type="text" placeholder="Name" style="border: gray 1px dashed; border-radius:5px;"/>
 									<input type="text" placeholder="Phone Number" style="border: gray 1px dashed; border-radius:5px;" />
 									<input type="text" placeholder="E-mail Address" style="border: gray 1px dashed; border-radius:5px;" />
-									<a href="#" class="button button-submit">Submit Contact Details</a>
+									<a href="#" class="button button-submit">Send Details</a>
 							</form>
 						</div>
 					</div>
@@ -58,26 +105,26 @@
  
             <div id="footer">
 				<center>
-					<div class="row sponsors">
+					<div  class="row sponsors">
 						<div class="small-2 columns">
 							<img style="height:100%;" src="assets/img/sponsors/school-logo.jpg"><br/>
-							<p class="white">South Hill School<p/>
+							<p id="remove" class="white">South Hill School<p/>
 						</div>
 						<div class="small-2 columns">
 							<img style="height:100%;" src="assets/img/sponsors/ek.png"><br/>
-							<p class="white">Enchanted Kingdom</p>
+							<p id="remove" class="white">Enchanted Kingdom</p>
 						</div>
 						<div class="small-2 columns">
 							<img style="height:100%;" src="assets/img/sponsors/malayan.png"><br/>
-							<p class="white">Malayan Colleges</p>
+							<p id="remove" class="white">Malayan Colleges</p>
 						</div>
 						<div class="small-2 columns">
 							<img style="height:100%;" src="assets/img/sponsors/vacci.png"><br/>
-							<p class="white">Vacciplus</p>
+							<p id="remove" class="white">Vacciplus</p>
 						</div>
 						<div class="small-2 columns">
 							<img style="height:100%;" src="assets/img/sponsors/bucheon.png"><br/>
-							<p class="white">City of Bucheon</p>
+							<p id="remove" class="white">City of Bucheon</p>
 						</div>
 						<div class="small-2 columns">
 							.
@@ -86,14 +133,17 @@
 				</center>
 			</div>
 
-        <!-- do not go beyond this line -->
-        <script src="js/vendor/jquery.js"></script>
-	    <script src="js/foundation.min.js"></script>
-        
-        <script src="js/wow.min.js"></script>
-        
-        
+        <!-- do not go beyond this line -->        
+        <script src="/js/vendor/jquery.js"></script>
+        <script src="/js/foundation/foundation.js"></script>
+	    <script src="/js/foundation/foundation.topbar.js"></script>
+        <script src="/js/foundation.min.js"></script>        
+        <script src="/js/wow.min.js"></script>                
 	    <script>
+	      $(document).foundation();
+	    </script>
+        
+        <script>
 	      $(document).foundation();
 	    </script>
         <script>

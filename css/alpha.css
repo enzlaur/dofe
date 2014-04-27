@@ -1,6 +1,6 @@
 
 body{ 
-    background: rgb(217,217,217); 
+    background: #08121c; 
     color: rgb(67,67,67);  
     font-family: Rockwell;
 }
@@ -131,6 +131,17 @@ h1{
     .visibility{
         visibility: hidden;
     }
+    #hidden-nav {
+        visibility: hidden;
+        width: 100%;
+        background: #08121c;
+    }
+    #bucheon{
+        visibility: visible;
+    }
+    #remove{
+        visibility: visible;            
+    }
 }
 
 @media (max-width: 1150px)
@@ -163,15 +174,35 @@ h1{
     #trophy-motto{
         visibility: hidden;
         display: none;
+    }        
+    #hidden-nav{
+        visibility: visible;
     }
-    
-        
+    #helpyou{
+        display: none;
+    }
+    #visible-nav
+    {
+        visibility: hidden;        
+    }    
+    #bucheon{
+        visibility: visible;
+    }
+    #remove{
+        visibility: visible;            
+    }
+}
+
+@media (max-width: 400px){
+    #hidden-nav{
+        visibility: visible;
+    }
 }
     
 #award {    
     background: #004a4a;        
     color: white;
-    height: 120%;
+    height: auto;
     width: 100%;    
     
 }
@@ -233,7 +264,7 @@ h1{
 #donate {
     height: 100%;
     width: 100%;
-    background: #ff2626;    
+    background: #ff2626;        
 }
 
 .back-red {
@@ -253,4 +284,49 @@ h1{
 
 .back-orange {
     background: #ff5a1e;
+}
+
+#hidden-nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+    width: 100%;
+}
+
+#bucheon {
+    height: 100%;
+}
+
+@media (max-width: 1150px){
+    #bucheon{
+        height: 20%;    
+    }
+}
+
+#remove {
+    visibility: visible;
+}
+@media (max-width: 800px)
+{
+    #remove{
+        visibility: hidden;            
+    }
+    #footer{
+        visibility: collapse;
+        display: none;
+    }
+}
+
+#about-top {
+    background: #08121c;
+    height: 100%;    
+}
+
+#midbar {
+    height: auto;
+    background: #08121c;
+}
+
+#physical {
+    height: 100%;
 }
